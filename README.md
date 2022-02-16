@@ -1,0 +1,5 @@
+# Picture in Picture demo site
+
+THIS ONLY WORKS IN GOOGLE CHROME.
+
+FIREFOX / OTHER BROWSERS DO NOT SUPPORT PictureInPicture.

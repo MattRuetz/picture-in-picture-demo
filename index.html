@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Template</title>
+        <title>Picture-in-Picture</title>
         <!-- My CSS -->
         <link rel="stylesheet" href="style.css" />
         <!-- Favicon -->
@@ -13,17 +13,26 @@
             type="img/png"
             href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com"
         />
-        <!-- FontAwesome -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <!-- Video -->
+        <video
+            src=""
+            id="video"
+            controls
+            height="360"
+            width="640"
+            hidden
+        ></video>
+
+        <!-- Button -->
+        <div class="button-container">
+            <button id="choose-media-btn">Choose Media</button>
+        </div>
+        <div class="button-container">
+            <button id="button">START</button>
+        </div>
+
         <!-- Script -->
         <script src="script.js"></script>
     </body>
